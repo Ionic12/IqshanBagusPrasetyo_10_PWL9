@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+.load{
+    animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s infinite;
+}
+.rectangle{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 330px;
+}
+@keyframes slide{
+    0%{
+        background-image: url('../img/contact/contact-1.jpg');
+    }
+    20%{
+        background-image: url('../img/contact/contact-1.jpg');
+    }
+    40%{
+        background-image: url('../img/contact/contact-2.jpg');
+    }
+    40.1%{
+        background-image: url('../img/contact/contact-2.jpg');
+    }
+    60%{
+        background-image: url('../img/contact/contact-3.jpg');
+    }
+    60.1%{
+        background-image: url('../img/contact/contact-3.jpg');
+    }
+    80%{
+        background-image: url('../img/contact/contact-4.jpg');
+    }
+    80.1%{
+        background-image: url('../img/contact/contact-4.jpg');
+    }
+    80.1%{
+        background-image: url('../img/contact/contact-5.jpg');
+    }
+    100%{
+        background-image: url('../img/contact/contact-5.jpg');
+    }
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.fsect{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.area{
+    width: 100%;
+    text-align: center;
+}
+.sbutton{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}

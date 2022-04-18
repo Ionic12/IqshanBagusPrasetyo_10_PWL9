@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+span{
+    color: #EC4D37;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.spage{
+    height: 105%;
+    width: 100%;
+    background: url(../img/home/sbike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+}
+.stext{
+    width : 100%;
+	text-align : center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.shead{
+    color: white;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+}
+.thead{
+    color: white;
+    text-align: center;
+}
+.box{
+    width : 100%;
+    height: 350px;
+    background: url(../img/asset/banner.jpg);
+}
+.col-3{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    color : #ffffff;
+    text-align: center;
+    font-size: 17px;
+    transform-style: preserve-3d;
+    float : left;
+    margin : 0px 20px 20px 0px;
+    left: 14%;
+}
+.col-3 .nama{
+    color: #FFF;
+    float: mid;
+    margin-bottom: 3px;
+    transform: translate3d(0%,0%,80px);
+}
+.col-3 .sbutton{
+    float: mid;
+    transform: translate3d(0%,0%,50px);
+}
+.bike-img{
+    transform: translate3d(0%,10%,120px);
+    transition: 0.5s;
+}
+.col-3:hover .bike-img{
+    transform: translate(0%,10%,120px) scale(3.0);
+}
+.sbutton{
+    width: 100px;
+    height: 35px;
+    margin-top: 8px;
+    font-size: 15px;
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.ftext{
+    transform: translate(0%,250%);
+    align-items: center;
+}
+span{
+    color: #EC4D37;
+}
+h1{
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 23px;
+    text-align: center;
+}
+.fhead{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+}
+.fpage{
+    width: 100%;
+    height: 80%;
+    background: url(../img/asset/banner.jpg);
+}
+th{
+    color: white;
+    text-align: center;
+}
+td{
+    color: white;
+    text-align: center;
+}
+.spage{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shead{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    transform: translate(0%,30%);
+}
+.srectangle{
+    width: 60%;
+    margin-left: 40%;
+    height: 100%;
+    background: url(../img/asset/rbanner.jpg);
+}
+.sdesc-text{
+    top: 100%;
+    width: 700px;
+}
+.smain{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sdesc-text h2{
+    color: white;
+    width: 100%;
+    font-size: 75px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.sdesc-text h3{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 100%;
+}
+.tpage{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thead{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    transform: translate(0%,30%);
+}
+.trectangle{
+    width: 60%;
+    margin-right: 40%;
+    height: 100%;
+    background: url(../img/asset/lbanner.jpg);
+}
+.tdesc-text{
+    top: 100%;
+    width: 700px;
+}
+.tmain{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tdesc-text h2{
+    color: white;
+    width: 100%;
+    font-size: 75px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tdesc-text h3{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 100%;
+}
+
